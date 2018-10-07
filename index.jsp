@@ -1,0 +1,60 @@
+<%@ page language="java" import="java.sql.*" import="bean.MusicBean"   pageEncoding="UTF-8"%>
+
+<html class="html" lang="en">
+<head>
+<link rel="stylesheet" href="music.css">
+<title>music</title>
+</head>
+<body>
+  
+  
+	<div class="search"></div>
+	<div class="music-list">
+		<div class="title">
+			<h3>默认歌单</H3>
+		</div>
+		<div class="list">
+			<ul >
+				<li >燕归巢</li>
+				<li>东风破</li>
+				<li>大鱼</li>
+				<li>江湖</li>
+			</ul>
+		</div>
+	</div>
+	<audio id="audio">
+		<source title="燕归巢"
+			data-img="picture/燕归巢.jpg"
+			src="燕归巢.mp3">
+		<source title="东风破"
+			data-img="picture/东风破.jpg"
+			src="东风破.mp3">
+		<source title="大鱼"
+			data-img="picture/大鱼.jpg"
+			src="大鱼.mp3">
+		<source title="江湖"
+			data-img="picture/江湖.jpg"
+			src="江湖.mp3">
+	</audio>
+	<div class="music">
+		<h2 class="header">音乐播放器</h2>
+		<div class="fengmian">
+			<img
+				src="picture/燕归巢.jpg"
+				id="music-fengmian">
+		</div>
+		<div>
+		 <h4 id="title">燕归巢</h4>
+		</div>
+		<div class="controls">
+			<a id="loop" href="javascript:;">列表</a>
+			<a id="prev" href="javascript:;"> < </a>   
+			<a id="play" href="javascript:;">Play</a> 
+			<a id="next" href="javascript:;"> > </a>   
+			<a id="jingyin" href="javascript:;">静音</a>
+		</div>
+	</div>
+	<script src="js/music.js"></script>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
