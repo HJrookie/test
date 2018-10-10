@@ -74,8 +74,8 @@ li {
 }	
 @-webkit-keyframes rotate /*Safari and Chrome*/
 {
-	from{-moz-transform:rotate(0deg)} 	
-	to{-moz-transform:rotate(360deg)}
+	from{transform:rotate(0deg)} 	
+	to{transform:rotate(360deg)}
 }
 	float: right;
 }
