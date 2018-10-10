@@ -68,7 +68,14 @@ li {
 	border-radius:50%;
 }
 	
-@-webkit-keyframes rotate
+
+@keyframes rotate
+{
+from{transform:rotate(0deg)} 	
+	 to{transform:rotate(360deg)}
+}
+
+@-webkit-keyframes rotate /*Safari and Chrome*/
 {
 	from{transform:rotate(0deg)} 	
 	 to{transform:rotate(360deg)}
