@@ -30,7 +30,7 @@ function rotate() {
 	if (!flag) {
 		audio.play();
 		this.innerHTML='Pause';
-		music_fengmian.style.animation = "15s linear 0s normal none infinite mymove";
+		music_fengmian.style.animation = "mymove 15s linear 0 infinite normal";
 		flag=true;
 	}else{
 		this.innerHTML='Play';
