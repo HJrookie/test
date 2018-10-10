@@ -72,6 +72,11 @@ li {
 	 from{-moz-transform:rotate(0deg)} 	
 	 to{-moz-transform:rotate(360deg)}
 }	
+@-webkit-keyframes rotate /*Safari and Chrome*/
+{
+	from{-moz-transform:rotate(0deg)} 	
+	to{-moz-transform:rotate(360deg)}
+}
 	float: right;
 }
 #title{
