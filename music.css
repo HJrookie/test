@@ -69,13 +69,13 @@ li {
 }
 	
 
-@keyframes rotate
+@keyframes mymove
 {
-from{transform:rotate(0deg)} 	
-	 to{transform:rotate(360deg)}
+	from{transform:rotate(0deg)} 	
+	to{transform:rotate(360deg)}
 }
 
-@-webkit-keyframes rotate /*Safari and Chrome*/
+@-webkit-keyframes mymove 
 {
 	from{transform:rotate(0deg)} 	
 	 to{transform:rotate(360deg)}
