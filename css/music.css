@@ -67,21 +67,13 @@ li {
 	margin-bottom:30px;
 	border-radius:50%;
 }
-	
-
-@keyframes mymove
+@keyframes rotate
 {
-	from{transform:rotate(0deg)} 	
-	to{transform:rotate(360deg)}
-}
-
-@-webkit-keyframes mymove 
-{
-	from{transform:rotate(0deg)} 	
+	 from{transform:rotate(0deg)} 	
 	 to{transform:rotate(360deg)}
 }
 #title{
-	height:50px;
+	height:30px;
 	text-align:center;
 }
 .controls {
