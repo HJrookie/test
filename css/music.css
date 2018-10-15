@@ -122,3 +122,14 @@ li {
 	color: #fec514;
 	margin: 0 20px;
 }
+#download
+{
+	position: absolute;
+	top:80%;
+	left:50%;
+}
+#download a
+{
+	color: #ffeb3b;
+	text-decoration: none;
+}
