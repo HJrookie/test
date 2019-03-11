@@ -1,0 +1,135 @@
+html, body {
+	overflow:auto;
+	width: 100%;
+	heihgt: 100%;
+	font: lighter 16px -apple-system, PingFang SC, Hiragino Sans GB, Arial,
+		Microsoft YaHei, Helvetica Neue, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #6d6d6d;
+}
+
+.search {
+	height: 100px;
+	width: 100%;
+}
+
+.music-list {
+	width: 680px;
+	height: 470px;
+	margin-right: 20px;
+	float: left;
+	color: #ccc;
+}
+
+.music-list .title {
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.music-list .list {
+	margin-left:80px;
+	padding: 20px;
+}
+
+li {
+	display: block;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+
+.music {
+	width: 320px;
+	height: 500px;
+	margin-right:10%;
+	float: right;
+	background: #595959;
+	text-align: center;
+	color: #fff;
+}
+
+.music .header {
+	height: 50px;
+	text-align: center;
+	line-height: 20px;
+	border-bottom: 1px solid #d33ad8;
+}
+
+.fengmian {
+	width: 320px;
+	height: 260px;
+}
+.fengmian img{
+	width:180px;
+	height:180px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:50%;
+}
+@keyframes rotate
+{
+	 from{transform:rotate(0deg)} 	
+	 to{transform:rotate(360deg)}
+}
+#title{
+	height:30px;
+	text-align:center;
+}
+.controls {
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom:30px;
+}
+.controls a {
+	
+	display: inline-block;
+	color: #000000;
+	text-decoration: none;   
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin-right: 5px;
+	border-radius: 50%;
+	background: #fec514;
+}
+#play {
+	font-size: 14px;
+	transition: all 0.3s;
+}
+#play:hover {
+	background: rgba(254,197,20,0.7);
+}
+#prev, #next {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: transparent;
+	color: #fec514;
+	border: 2px solid #fec514;
+	transition: all 0.3s;
+}
+#prev:hover, #next:hover {
+	border-color: rgba(254,197,20,0.7);
+}
+#xunhuan, #jingyin {
+	width: 30px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	background: transparent;
+	color: #fec514;
+	margin: 0 20px;
+}
+#download
+{
+	position: absolute;
+	top:80%;
+	left:50%;
+}
+#download a
+{
+	color: #ffeb3b;
+	text-decoration: none;
+}
