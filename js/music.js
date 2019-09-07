@@ -66,7 +66,7 @@ function changeMusic(direct) {
 	play.innerHTML = 'Pause';
 	audio.play();
 	flag = 1;
-	music_fengmian.style.animation = "15s linear 0s normal none infinite rotate"; 
+	music_fengmian.style.animation = "30s linear 0s normal none infinite rotate"; 
 }
 function setVolume(){
 	if(!volume_flag){
